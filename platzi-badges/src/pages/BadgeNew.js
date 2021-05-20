@@ -5,6 +5,7 @@ import header from "../images/badge-header.svg";
 import Badge from "../components/Badge.js";
 import BadgeForm from "../components/BadgeForm.js";
 import Navbar from "../components/Navbar.js";
+import avatar from "../images/avatar.png";
 
 class BadgeNew extends React.Component {
 	state = {
@@ -42,6 +43,7 @@ class BadgeNew extends React.Component {
 								twitter={this.state.form.twitter}
 								jobTitle={this.state.form.jobTitle}
 								email={this.state.form.email}
+								avatar={avatar}
 							></Badge>
 						</div>
 						<div className="col-6">
