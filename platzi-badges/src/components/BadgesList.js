@@ -1,4 +1,6 @@
 import React from "react";
+import avatar from "../images/avatar.png";
+import "./styles/BadgesList.css";
 
 class BadgesList extends React.Component {
 	render() {
@@ -6,11 +8,22 @@ class BadgesList extends React.Component {
 			<ul className="list-unstyled">
 				{this.props.badges.map((badge) => {
 					return (
-						<li key={badge.id}>
-							<p>
-								{badge.firstName}
-								{badge.lastName}
-							</p>
+						<li key={badge.id} className="badgeList badgesContainer">
+							<img className="avatarBadges" src={avatar} alt="avatar" />
+							<div className="textBadges">
+								<h3 className="nameBadges">
+									{badge.firstName}
+									{badge.lastName}
+									<br />
+								</h3>
+								<p className="infoBadges">
+									{badge.email}
+									<br />
+									{badge.jobTitle}
+									<br />
+								</p>
+								<p className="socialBadges">@{badge.twitter}</p>
+							</div>
 						</li>
 					);
 				})}
