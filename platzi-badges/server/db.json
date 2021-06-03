@@ -440,6 +440,33 @@
       "jobTitle": "Lawyer",
       "twitter": "ckaufmanpr",
       "id": "npaYZKI"
+    },
+    {
+      "firstName": "juan",
+      "lastName": "duartte",
+      "email": "jf@duartte.co",
+      "jobTitle": "content creator",
+      "twitter": "elpepe",
+      "avatarUrl": "https://www.gravatar.com/avatar/1783c44dfc28c85397caec287d2f1621?d=identicon",
+      "id": "6QkJYzC"
+    },
+    {
+      "firstName": "pipe",
+      "lastName": "grillo",
+      "email": "doggy@elduartte.co",
+      "jobTitle": "meme lord",
+      "twitter": "elpaco",
+      "avatarUrl": "https://www.gravatar.com/avatar/239785708c0fd4ab575b8c03a9ef649e?d=identicon",
+      "id": "lI9udZ1"
+    },
+    {
+      "firstName": "matia",
+      "lastName": "uran",
+      "email": "doggy@elduartte.co",
+      "jobTitle": "meme lord",
+      "twitter": "elpancreas",
+      "avatarUrl": "https://www.gravatar.com/avatar/239785708c0fd4ab575b8c03a9ef649e?d=identicon",
+      "id": "hiUAvWN"
     }
   ]
 }
