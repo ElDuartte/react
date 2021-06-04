@@ -5,7 +5,7 @@ import Layout from "./Layout.js";
 import Home from "../pages/Home.js";
 import Badges from "../pages/Badges.js";
 import BadgeNew from "../pages/BadgeNew.js";
-import BadgeDetails from "../pages/BadgeDetails.js";
+import BadgeDetails from "../pages/BadgeDetailsContainer.js";
 import BadgeEdit from "../pages/BadgeEdit.js";
 import NotFound from "../pages/NotFound.js";
 
