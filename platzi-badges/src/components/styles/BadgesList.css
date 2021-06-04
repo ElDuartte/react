@@ -1,34 +1,13 @@
-.badgeList {
-	display: flex;
-	width: 100%;
-	align-items: center;
-	justify-content: center;
-	margin-bottom: 5%;
-	padding: 10px;
+.BadgesList ul > li {
+	margin-bottom: 1rem;
+}
+
+.BadgesListItem {
+	background: #ffffff;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.23);
 	border-radius: 5px;
-	box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
-		rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
-		rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
-}
-
-.textBadges {
-	width: 100%;
-	padding-left: 3%;
-}
-
-.nameBadges {
-	width: 100%;
-	margin-bottom: 0.6%;
-}
-
-.infoBadges {
-	font-size: 0.8rem;
-	margin: 0;
-}
-
-.socialBadges {
-	font-size: 0.8rem;
-	color: #007bff;
+	display: flex;
+	padding: 1rem;
 }
 
 .BadgesListItem__avatar {
