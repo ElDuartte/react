@@ -58,7 +58,7 @@ class BadgeDetailsContainer extends React.Component {
 			return <PageError error={this.state.error} />;
 		}
 
-		const badge = this.state.data;
+		// const badge = this.state.data;
 
 		return (
 			<BadgeDetails
